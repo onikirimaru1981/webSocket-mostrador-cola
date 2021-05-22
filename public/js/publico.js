@@ -19,23 +19,23 @@ socket.on('estado-actual', (payload) => {
     const [ticket1, ticket2, ticket3, ticket4] = payload;
 
     if (ticket1) {
-        lblTicket1.innerText = 'ticket' + ticket1.numero;
-        lblEscritorio1.innerText = ticket1.escritorio;
+        lblTicket1.innerText = `Ticket: ${ticket1.numero}`;
+        lblEscritorio1.innerText = `Mostrador: ${ticket1.escritorio}`;
     };
 
     if (ticket2) {
-        lblTicket2.innerText = 'ticket' + ticket2.numero;
-        lblEscritorio2.innerText = ticket2.escritorio;
+        lblTicket2.innerText = `Ticket: ${ticket2.numero}`;
+        lblEscritorio2.innerText = `Mostrador: ${ticket2.escritorio}`;
     };
 
     if (ticket3) {
-        lblTicket3.innerText = 'ticket' + ticket3.numero;
-        lblEscritorio3.innerText = ticket3.escritorio;
+        lblTicket3.innerText = `Ticket: ${ticket3.numero}`;
+        lblEscritorio3.innerText = `Mostrador: ${ticket3.escritorio}`;
     };
 
     if (ticket4) {
-        lblTicket4.innerText = 'ticket' + ticket4.numero;
-        lblEscritorio4.innerText = ticket4.escritorio;
+        lblTicket4.innerText = `Ticket: ${ticket4.numero}`;
+        lblEscritorio4.innerText = `Mostrador: ${ticket4.escritorio}`;
     };
 
 
